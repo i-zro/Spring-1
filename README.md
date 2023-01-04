@@ -1,2 +1,2 @@
 # Spring-1
-Spring 공부를 위해 다양한 시도 해 보기용 Repository
+- feature/23.01.04.message : spring 메시지 처리 / 국제화 구현
