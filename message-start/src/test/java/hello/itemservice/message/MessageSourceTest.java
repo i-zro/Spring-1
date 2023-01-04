@@ -19,4 +19,10 @@ public class MessageSourceTest {
         String result = ms.getMessage("hello", null, null);
         assertThat(result).isEqualTo("안녕");
     }
+
+    @Test
+    void argumentMessage() {
+        String result = ms.getMessage("hello.name", new Object[]{"Spring"}, null);
+        assertThat(result).isEqualTo("안녕 Spring");
+    }
 }
